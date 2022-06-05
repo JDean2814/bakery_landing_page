@@ -108,7 +108,7 @@ footer {
 
 .info-contain {
     text-align: center;
-    width: 30%;
+    width: clamp(18em, 20vw, 20em);
     padding: 2em 0;
 }
 
