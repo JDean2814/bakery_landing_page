@@ -162,6 +162,8 @@ input::placeholder {
 
 .join-btn {
     background-color: var(--clr-white);
+    color: var(--clr-black);
+    font-family: 'Quicksand', sans-serif;
     -webkit-appearance: none;
     margin: 0 1em;
     padding: .5em 1em;
