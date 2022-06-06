@@ -10,7 +10,7 @@
 :root {
     --clr-white: #FFFFFF;
     --clr-black: #000000;
-    --clr-light: #D0D1D3;
+    --clr-light: #cacaca;
     --clr-dark: #3A4354;
     --fw-regular: 400;
     --fw-medium: 500; 
@@ -21,6 +21,7 @@ body {
     margin: 0;
     font-family: 'Quicksand', sans-serif;
     line-height: 1.6;
+    background-color: #969696;
 }
 
 h1, 
@@ -163,7 +164,7 @@ input::placeholder {
 .join-btn {
     -webkit-appearance: none;
     background-color: var(--clr-white);
-    color: var(--clr-black) !important;
+    color: var(--clr-black);
     font-family: 'Quicksand', sans-serif;
     margin: 0 1em;
     padding: .5em 1em;
