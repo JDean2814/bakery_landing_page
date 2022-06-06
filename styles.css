@@ -75,6 +75,11 @@ footer {
     padding: .5em;
 }
 
+.order-now-btn:hover {
+    background-color: var(--clr-white);
+    color: var(--clr-black);
+}
+
 .hero {
     display: flex;
     justify-content: center;
@@ -109,7 +114,7 @@ footer {
 .info-contain {
     text-align: center;
     width: clamp(18em, 20vw, 20em);
-    padding: 2em 0;
+    padding: 5em 0;
 }
 
 .deals-offers {
@@ -155,8 +160,16 @@ input::placeholder {
 }
 
 .join-btn {
+    -webkit-appearance: none;
     margin: 0 1em;
     padding: .5em 1em;
+}
+
+.join-btn:hover {
+    cursor: pointer;
+    background: none;
+    border: solid 3px var(--clr-white);
+    color: var(--clr-white);
 }
 
 .our-creations {
@@ -173,6 +186,11 @@ input::placeholder {
 .our-creations a {
     border-color: var(--clr-black);
     color: var(--clr-black);
+}
+
+.our-creations a:hover {
+    background-color: var(--clr-black);
+    color: white;
 }
 
 .img-contain {
